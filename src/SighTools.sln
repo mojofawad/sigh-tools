@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{9722F58A-7DFE-4236-93E3-6672D3C321C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SighTools", "_SighTools", "{0E649547-782C-45BA-8FCC-C5D11080D792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{324884B8-D843-45FD-817B-E6011C228B26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SighTools.Tests", "..\tests\SighTools.Tests\SighTools.Tests.csproj", "{68F27A21-728E-4B81-A6E5-37579E5A7774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mojofawad.Shared", "..\..\mojofawad\src\mojofawad.Shared\mojofawad.Shared.csproj", "{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68F27A21-728E-4B81-A6E5-37579E5A7774} = {324884B8-D843-45FD-817B-E6011C228B26}
+		{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E} = {9722F58A-7DFE-4236-93E3-6672D3C321C9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68F27A21-728E-4B81-A6E5-37579E5A7774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F27A21-728E-4B81-A6E5-37579E5A7774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F27A21-728E-4B81-A6E5-37579E5A7774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F27A21-728E-4B81-A6E5-37579E5A7774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8B00E0-15D6-48F5-B34B-5450C1DAC92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
